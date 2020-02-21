@@ -1,0 +1,7 @@
+name: buffer-gate
+type: BinaryLogicBlock
+processor: function(input) {return input;}
+category: effect
+requirements: [
+  lead/4
+]
