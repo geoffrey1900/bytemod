@@ -1,6 +1,6 @@
 name: nor-gate
 type: BinaryLogicBlock
-processor: function(left, right) {!(left || right)}
+processor: function(left, right) {return !(left || right);}
 category: effect
 requirements: [
   lead/4
