@@ -1,0 +1,7 @@
+name: nor-gate
+type: BinaryLogicBlock
+processor: function(left, right) {!(left || right)}
+category: effect
+requirements: [
+  lead/4
+]
